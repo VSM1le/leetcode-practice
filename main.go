@@ -7,12 +7,17 @@ import (
 )
 
 func main() {
-	// list1 := &leetcode.ListNode{Val: 1}
-	// list2 := &leetcode.ListNode{Val: 1}
-	// leetcode.TwoSum()
-	// fmt.Println(*leetcode.Insert(list1, list2))
-	// Insert()
-	// fmt.Println(leetcode.LengthOfLongestSubstring())
-	fmt.Println(leetcode.FindMedianSortedArrays())
-	fmt.Println(leetcode.SortArray([]int{1, 3, 52, 31, 2, 3}))
+	// fmt.Println(leetcode.RomanToInt())
+	// fmt.Println(leetcode.SortArray([]int{1, 3, 52, 31, 2, 3}))
+	// s := "dsesse"
+	// var combine string
+	// for _, v := range s {
+	// fmt.Println(string(v))
+	// combine += string(v)
+	// }
+	fmt.Println(leetcode.LongestPalindrome())
+	// s := "dfsdfsdf"
+	// for i := 0; i < len(s); i++ {
+	// fmt.Println(string(s[0:3]))
+	// }
 }
