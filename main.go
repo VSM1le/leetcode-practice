@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/VSM1le/leetcode-practice/leetcode"
-)
+import "fmt"
 
 func main() {
 	// fmt.Println(leetcode.RomanToInt())
@@ -15,9 +11,13 @@ func main() {
 	// fmt.Println(string(v))
 	// combine += string(v)
 	// }
-	fmt.Println(leetcode.LongestPalindrome())
-	// s := "dfsdfsdf"
+	// fmt.Println(leetcode.LongestCommonPrefix())
+	s := []string{"dfsdfsdf"}
+	fmt.Println(string(s[0][0]))
 	// for i := 0; i < len(s); i++ {
 	// fmt.Println(string(s[0:3]))
 	// }
+	// var c byte
+
+	// fmt.Println(c)
 }
